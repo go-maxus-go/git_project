@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.5)
 set(NAME mul_test)
 
 include_directories(${CMAKE_SOURCE_DIR}/src/include)
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/Catch2/single_include/catch2)
 
 file(GLOB SOURCES "*.cpp")
 
